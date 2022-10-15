@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+    margin-top: 10%;
+}
+
+h1, h5{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 1%;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+td{
+    width: 50px;
+    height: 50px;
+}
+
+input.tecla:hover, input.boton:hover, input.control:hover{
+    color: rgb(200, 255, 0);
+}
+
+input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    font: 14px Arial;
+    font-weight: bold;
+}
+
+input.tecla{
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+}
+
+
+input.boton{
+    background-color: rgba(255, 136, 0, 0.466);
+    color: rgb(255, 255, 255);
+}
+
+input.control{
+    background-color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+}
+
+input#pantalla{
+    background-color: lightgray;
+}
